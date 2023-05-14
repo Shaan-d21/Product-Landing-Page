@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Open+Sans:wght@500;600;700&family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Mochiy Pop One', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+
+}
+
+/* --------------- Home --------------- */
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/pexels-neetu-laddha-6420705.jpg);
+}
+
+a {
+    color: rgb(12, 11, 11);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 100px;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    z-index: 1;
+}
+
+#menue-icon {
+    margin-left: 35px;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+
+.nav-options {
+    display: flex;
+}
+
+.nav-options li a {
+    position: relative;
+    padding-bottom: 5px;
+
+}
+
+.nav-options li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #f81065;
+    width: 0%;
+    height: 100%;
+    transition: 0.4s linear;
+}
+
+.nav-options li a:hover::before {
+    width: 100%;
+}
+
+.nav-bar li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text-box .text1 {
+    font-size: 4.5em;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.text-box .text2 {
+    position: relative;
+    letter-spacing: 10px;
+    font-size: 2.5em;
+    font-weight: 200;
+
+    margin: 20px;
+    padding: 0;
+}
+
+.text-box span {
+    letter-spacing: 5px;
+}
+
+.btn {
+    position: relative;
+    top: 40px;
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+    background: transparent;
+    border: 1px solid white;
+
+}
+
+.btn:hover {
+    background-color: #f81065;
+    border: none;
+}
+
+.title {
+    position: relative;
+    top: 15%;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.title span {
+    border-bottom: 2px solid #f81065;
+}
+
+/* ---------- Our Story ---------- */
+.content {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.row {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.left {
+    flex-basis: 60%;
+    font-weight: 600;
+    margin-top: 25px;
+    color: rgb(85, 84, 84);
+}
+
+.right {
+    flex-basis: 36%;
+}
+
+.right img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ---------- Section ---------- */
+section {
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/cakes-g617a2b7d4_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 100px;
+}
+
+section h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ---------- Our Shop ---------- */
+.row2 {
+    padding: 100px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 0px;
+}
+
+.card {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+#card1 {
+    background-image: url(/Chocolate.jpg);
+}
+
+#card2 {
+    background-image: url(/Vanilla.jpg);
+}
+
+#card3 {
+    background-image: url(/chocolate-boat.jpg);
+}
+
+#card4 {
+    background-image: url(/biscuit.jpg);
+    background-position: center;
+}
+
+.btn2 {
+    position: relative;
+    top: 80%;
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: #f81065;
+    color: #fff;
+    border: none;
+
+}
+
+.btn2:hover {
+    background-color: #ff005d;
+    cursor: pointer;
+}
+
+.box {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: #ffffff10;
+}
+
+.card-content {
+    width: 100%;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+.price {
+    color: #f81065;
+}
+
+/*------------- Contact -------------*/
+#contact {
+    background-color: whitesmoke;
+    height: 130vh;
+
+}
+
+#contact .row {
+    margin-top: 50px;
+}
+
+#contact .left {
+    flex-basis: 50%;
+}
+
+#contact .right {
+    flex-basis: 40%;
+
+}
+
+#contact .btn {
+    top: 0;
+    background-color: #f81065;
+}
+
+.left form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px 0;
+    color: #262626;
+    font-size: 15px;
+    border-radius: px;
+}
+
+iframe {
+    width: 70vh;
+    height: 60vh;
+}
+
+/* --------------- Footer -------------- */
+footer {
+    background-color: #262626;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.ctn {
+    color: #f81065;
+}
+
+/* --------------- CSS for small screen ------------- */
+@media (max-width:1223px) {
+    .text-box .text1 {
+        font-size: 3em;
+        transition: all .42s ease;
+    }
+
+    .text-box .text2 {
+        font-size: 1em;
+        transition: all .42s ease;
+    }
+
+    .text-box span {
+        font-size: 10px;
+    }
+
+    .btn {
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .left {
+        font-size: 12px;
+        transition: all .42s ease;
+    }
+
+    .right img {
+        position: relative;
+        top: 30px;
+        width: 50%;
+        transition: all .42s ease;
+    }
+
+    .title {
+        font-size: 25px;
+        transition: all .42s ease;
+    }
+
+    section h2 {
+        font-size: 25px;
+        transition: all .42s ease;
+    }
+
+    section h3 {
+        font-size: 12px;
+        transition: all .42s ease;
+    }
+
+    .row2 {
+        padding: 50px 50px;
+    }
+
+    .card-content {
+        font-size: 12px;
+    }
+
+    .btn2 {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+
+    #contact .row {
+        padding: 50px 20px;
+    }
+
+    form input,
+    form textarea {
+        padding: 10px;
+        color: #262626;
+        font-size: 15px;
+        border-radius: px;
+    }
+
+    iframe {
+        width: 50vh;
+        height: 40vh;
+    }
+
+}
+
+@media(max-width:950px) {
+    #shop {
+        overflow: scroll;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    .nav-options {
+        visibility: hidden;
+        position: absolute;
+        top: 11%;
+        right: 0;
+        margin-top: -900px;
+        width: 300px;
+        height: 89vh;
+        background: #f81065;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+
+        z-index: 1;
+    }
+
+    .nav-options a {
+        display: block;
+        margin: 18px;
+        color: #fff;
+    }
+
+    .nav-options a:hover {
+        color: #262626;
+    }
+
+    .change {
+        margin-top: 0;
+        visibility: visible;
+        transition: all .42s ease;
+    }
+
+    #menue-icon {
+        visibility: visible;
+        cursor: pointer;
+    }
+}

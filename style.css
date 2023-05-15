@@ -17,7 +17,7 @@
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/pexels-neetu-laddha-6420705.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(pexels-neetu-laddha-6420705.jpg);
 }
 
 a {
@@ -186,7 +186,7 @@ a {
 section {
     width: 100%;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/cakes-g617a2b7d4_1920.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(cakes-g617a2b7d4_1920.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -224,19 +224,19 @@ section h2 {
 }
 
 #card1 {
-    background-image: url(/Chocolate.jpg);
+    background-image: url(Chocolate.jpg);
 }
 
 #card2 {
-    background-image: url(/Vanilla.jpg);
+    background-image: url(Vanilla.jpg);
 }
 
 #card3 {
-    background-image: url(/chocolate-boat.jpg);
+    background-image: url(chocolate-boat.jpg);
 }
 
 #card4 {
-    background-image: url(/biscuit.jpg);
+    background-image: url(biscuit.jpg);
     background-position: center;
 }
 
